@@ -1,0 +1,61 @@
+/*
+@author Thyago Henrique Pacher - thyago.pacher@gmail.com
+*/
+/* 
+    Created on : 01/06/2016, 09:18:56
+    Author     : ThyagoHenrique
+*/
+
+#img_capa{
+    width: 100%;
+    height: 210px;
+}
+#img_user{
+    width: 150px;
+    height: 150px;
+    margin-top: -190px;
+    margin-left: 20px;
+}
+#holder {width: 300px; min-height: 300px; margin: 20px auto;}
+#holder.hover { border: 10px dashed #0c0; }
+#holder img { display: block; margin: 10px auto; }
+#holder p { margin: 10px; font-size: 14px; }
+progress { width: 100%; }
+progress:after { content: '%'; }
+.fail { background: #c00; padding: 2px; color: #fff; }
+.hidden { display: none !important;}
+#painel_foto_background{
+    width: 200px;
+    height: 200px;
+    margin-top: -195px;
+    margin-left: 10px;
+    border: 1px solid #e7e7e7;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar-static-top{
+    position: fixed;
+    width: 100%;    
+}
+.topo{
+    margin-top: 65px;
+}
+#msgErro{
+    background: red;
+    color: white;
+    padding: 5px;
+}
+.quadroTimeLine{
+    margin-top: 10px;
+    background: #DDDDDD;
+    border-radius: 5px;
+    padding: 5px;
+}
+#alterarFoto{
+    color: white;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.41);
+    float: none;
+    padding-left: 10px;
+}

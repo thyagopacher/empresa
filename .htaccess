@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^/?$ public/index.php [NC,L] 
+#RewriteRule ^(.*) public/$1 [NC]
+#RewriteRule ^css(.*) public/css/$1 [NC]
+#RewriteRule ^img(.*) public/img/$1 [NC]
+#RewriteRule ^js(.*) public/js/$1 [NC]
+#RewriteRule ^fonts(.*) public/fonts/$1 [NC]
+
+#If you are using PHP FastCGI, HTTP Basic authentication may not work correctly out of the box. 
+#The following lines should be added to your .htaccess file:
+#RewriteCond %{HTTP:Authorization} ^(.+)$
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+#ModPagespeed off
